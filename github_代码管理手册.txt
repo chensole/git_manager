@@ -236,4 +236,12 @@ git branch -d dev  删除dev分支
 
 		git push -u orgin master
 
-	
+
+
+# 将新的分支推送到github
+git push origin newbranch
+
+# 在github远程端删除一个分支
+git push origin :newbranch (分支名前的冒号代表删除)
+
+
